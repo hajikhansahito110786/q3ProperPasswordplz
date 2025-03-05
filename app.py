@@ -51,7 +51,7 @@ def check_password_strength(password):
             for item in feedback:
                 st.write(item)
 
-password = st.text_nput("type correct and strong pass", type="password", help="enter proper")
+password = st.text_input("type correct and strong pass", type="password", help="enter proper")
 
 if st.button("stregth:"):
     if password:
